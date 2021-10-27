@@ -1,0 +1,161 @@
+.logo img{
+    width: 70px;
+}
+.logo{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.a-image img{
+    width: 260px;
+}
+.t-right{
+    margin-top: 60px;
+    margin-left: 85px;
+}
+.t-right2{
+    margin-left: 85px;
+}
+.t-right p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.t-right2 p{
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 15px;
+    color:#a2a5aa;
+}
+.form-text {
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.form-texts{
+    margin-left: 85px;
+    margin-top: 60px;
+}
+.form-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    color: #17171F;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.form-text p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #17171F;
+    line-height: 24px;
+}
+
+.l-form {
+    margin-top: 20px;
+    margin-left: 85px;
+    padding-right: 50px;
+}
+
+label {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #60606A;
+}
+
+
+.form-control,
+.form-control:focus,
+.input-group-addon {
+    border-color: #afb1ae;
+    border-radius: 0;
+}
+
+.login-form .form-group {
+    margin-bottom: 40px;
+}
+
+.login-form label {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.login-form .form-control {
+    min-height: 38px;
+    box-shadow: none !important;
+    border-width: 0 0 1px 0;
+    background-color: #eceff7;
+}
+
+.login-form .input-group-addon {
+    max-width: 42px;
+    text-align: center;
+    background: none;
+    border-bottom: 1px solid #afb1ae;
+    padding-left: 5px;
+}
+
+.login-form .btn,
+.login-form .btn:active {
+    font-size: 16px;
+    font-weight: bold;
+    background: #129948 !important;
+    border-radius: 3px;
+    border: none;
+    min-width: 140px;
+}
+
+.login-form .btn:hover,
+.login-form .btn:focus {
+    background: #129948 !important;
+}
+
+.login-form a {
+    color: #129948; 
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form .fa {
+    font-size: 21px;
+    position: relative;
+    top: 8px;
+}
+
+.login-form .fa-paper-plane {
+    font-size: 17px;
+}
+
+.login-form .fa-check {
+    color: #fff;
+    left: 9px;
+    top: 18px;
+    font-size: 7px;
+    position: absolute;
+}
+#re-div{
+    border: 1px solid #b6b8b5;
+    overflow: visible;
+    text-align: center;
+    opacity: 1;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+#re-div:after{
+    background: #eceff7;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    content: 'OR';
+    padding: 0 10px;
+    position: relative;
+    top: -13px;
+    color: #60606A;
+    opacity: 1;
+}

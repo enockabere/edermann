@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $("#reg").click(function(e){
+        e.preventDefault();
+        $("#a-right").hide();
+        $("#n-right2").show();
+    })
+    $("#log").click(function(e){
+        e.preventDefault();
+        $("#n-right2").hide();
+        $("#a-right").show();
+    })
+})

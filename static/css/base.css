@@ -1,0 +1,38 @@
+.n-login {
+    height: 100vh;
+    width: 100%;
+}
+
+#a-left {
+    height: 105vh;
+    background-image: url(../img/auth/1.jpg);
+    background-size: cover;
+}
+
+#a-right {
+    background: #eceff7;
+    height: 105vh;
+}
+
+#n-right2 {
+    display: none;
+    background: #eceff7;
+    height: 105vh;
+
+}
+
+.br {
+    color: #db271f;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1400px) {
+    #a-right {
+        height: auto;
+    }
+
+    #n-right2 {
+        height: auto;
+
+    }
+}

@@ -1,1 +1,145 @@
-<h1>Welcome to Edermann</h1>
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+{% block content %}
+<section class="n-login">
+    <div class="container-fluid px-0">
+        <div class="row">
+            <div class="col-md-6" id="a-left">
+            </div>
+            <div class="col-md-6" id="a-right">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="t-right">
+                            <p>
+                                Welcome to <span class="br">Edermann Property Ltd</span>
+                            </p>
+                        </div>
+                        <div class="t-right2">
+                            <p>
+                                Building Affordable & Decent Houses for Middle & Low Income Earners.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-text">
+                            <h3>Sign In</h3>
+                            <p>
+                                Don't have an account? <a href="" id="reg" style="text-decoration: none;">Register</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="l-form">
+                            <div class="login-form">
+                                <form action="" method="post">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+                                            <input type="email" class="form-control" name="email"
+                                                placeholder="Email Address" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="text" class="form-control" name="password"
+                                                placeholder="Password" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="" type="button" id="sub" class="btn btn-primary btn-block btn-lg"
+                                            style="text-decoration:none;color:white">Login</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="n-right2">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-texts">
+                            <h3>REGISTER</h3>
+                            <p id="login">
+                                Already have an account? <a href="" id="log" style="text-decoration: none;">Login</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="reg-line mx-auto text-center">
+                            <hr id="re-div">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="l-form">
+                            <div class="login-form">
+                                <form method="post">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                    <input type="text" class="form-control" placeholder="First name"
+                                                        required="required">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                    <input type="text" class="form-control" placeholder="Last name"
+                                                        required="required">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-paper-plane"></i></span>
+                                            <input type="email" class="form-control" name="email"
+                                                placeholder="Email Address" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                            <input type="text" class="form-control" name="password"
+                                                placeholder="Password" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">
+                                                <i class="fa fa-lock"></i>
+                                                <i class="fa fa-check"></i>
+                                            </span>
+                                            <input type="text" class="form-control" name="confirm_password"
+                                                placeholder="Confirm Password" required="required">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary btn-block btn-lg">Sign Up</button>
+                                    </div>
+                                    <p class="small">By clicking the Sign Up button, you agree to our <br><a
+                                            href="#">Terms &amp; Conditions</a>, and <a href="#">Privacy Policy</a>.</p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
