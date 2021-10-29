@@ -65,6 +65,7 @@ INSTALLED_APPS = [
     'authentication',
     'bootstrap5',
     'booking',
+    'material',
 ]
 
 MIDDLEWARE = [

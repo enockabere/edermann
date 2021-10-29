@@ -10,3 +10,15 @@ $(document).ready(function(){
         $("#a-right").show();
     })
 })
+$(document).ready(function(){
+    $("#cards1").hover(function(e){
+        e.preventDefault();
+        $("#btn1").css({'color':'black','border-color':'red'})
+    })
+})
+$(document).ready(function(){
+    $("#cards2").hover(function(e){
+        e.preventDefault();
+        $("#btn2").css({'color':'black','border-color':'red'})
+    })
+})

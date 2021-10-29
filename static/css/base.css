@@ -36,3 +36,10 @@
 
     }
 }
+@media screen and (max-width: 768px) {
+
+    #c-card{
+        background-color: #f2f6f7;
+        border-radius: 8px;
+    }
+}

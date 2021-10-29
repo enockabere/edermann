@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+{% block content %}
+<section class="sketch">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head ">
+                    <div class=" mx-auto text-center" id="mycard">
+                        <h5>Apartment Sketch</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head2 mx-auto text-center">
+                    <h2> <span class="brs">Greatwall Gardens 5</span> Apartments Plan</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="nav" role="tablist">
+                    <a href="#m-plan" class="nav-link active" data-bs-toggle="tab">
+                        <i class="fa fa-file"></i> Master Plan
+                    </a>
+                    <a href="#f-plan" class=" nav-link" data-bs-toggle="tab">
+                        <i class="fa fa-file"></i> Floor Plan
+                        <a href="#g-plan" class=" nav-link" data-bs-toggle="tab">
+                            <i class="fa fa-file"></i> Block A sample Ground Plan
+                        </a>
+                        <a href="#" class=" nav-link" data-bs-toggle="tab">
+                            <i class="fa fa-window-close"></i> Skip Page
+                        </a>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tab-content mt-3">
+                    <div id="m-plan" class="container tab-pane active"><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="plan-pic">
+                                    <img src="../../../static/img/sketch/1.png" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-md-6" id="p-right">
+                                <div class="plan-right">
+                                    <h2>Master Plan</h2>
+                                    <p>
+                                        EPL conducts its business with interested parties on an honest, fair and
+                                        equitable basis.
+                                        Our business is people and their well-being. Therefore, in the pursuit of our
+                                        mission and vision, we conduct ourselves in accordance with the following
+                                        guidelines:
+                                    </p>
+                                </div>
+                                <div class="measure">
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Total Area</span>
+                                    </p>
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Bedroom</span>
+                                    </p>
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Bathroom</span>
+                                    </p>
+                                    <div class="d-grid gap-2 d-md-flex">
+                                        <button class="btn btn-dark me-md-2" type="button">Print Plan</button>
+                                        <button class="btn btn-outline-warning" type="button">Download Plan</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="f-plan" class="container tab-pane fade"><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="plan-pic">
+                                    <img src="../../../static/img/sketch/1.png" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-md-6" id="p-right">
+                                <div class="plan-right">
+                                    <h2>Floor Plan</h2>
+                                    <p>
+                                        EPL conducts its business with interested parties on an honest, fair and
+                                        equitable basis.
+                                        Our business is people and their well-being. Therefore, in the pursuit of our
+                                        mission and vision, we conduct ourselves in accordance with the following
+                                        guidelines:
+                                    </p>
+                                </div>
+                                <div class="measure">
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Total Area</span>
+                                    </p>
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Bedroom</span>
+                                    </p>
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Bathroom</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="g-plan" class="container tab-pane fade"><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="plan-pic">
+                                    <img src="../../../static/img/sketch/1.png" class="img-fluid" alt="" srcset="">
+                                </div>
+                            </div>
+                            <div class="col-md-6" id="p-right">
+                                <div class="plan-right">
+                                    <h2>Block A sample Ground Plan</h2>
+                                    <p>
+                                        EPL conducts its business with interested parties on an honest, fair and
+                                        equitable basis.
+                                        Our business is people and their well-being. Therefore, in the pursuit of our
+                                        mission and vision, we conduct ourselves in accordance with the following
+                                        guidelines:
+                                    </p>
+                                </div>
+                                <div class="measure">
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Total Area</span>
+                                    </p>
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Bedroom</span>
+                                    </p>
+                                    <p>
+                                        Sq.FT <span>100</span>
+                                        <span style="align-items: center;">
+                                            .......................................................................................................
+                                        </span>
+                                        <span style="float: right;"> Bathroom</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page">
+                    <a href="#" class="previous">&laquo; Previous</a>
+                    <a href="#" class="next">Next &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include '../footer.html' %}
+{% endblock %}

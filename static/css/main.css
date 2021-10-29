@@ -1,0 +1,226 @@
+.navbar {
+    background: transparent;
+}
+
+.navbar-brand {
+    background-color: #e7e0f3;
+    padding: 10px;
+    border-radius: 4px 10px 50px 0px;
+    padding-right: 20px;
+}
+
+.landing {
+    margin-top: -90px;
+    height: 110vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.l-text {
+    margin-top: 280px;
+}
+
+.l-text h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 18px;
+    font-weight: 900;
+}
+
+.l-text p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: #eceff7;
+    line-height: 24px;
+}
+
+.cards {
+    background-color: white;
+    margin-top: 170px;
+    padding: 20px;
+    border-radius: 8px
+}
+
+.cards h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.c-image {
+    width: 180px;
+}
+
+.cards p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #88898b;
+    line-height: 24px;
+    text-align: center
+}
+
+.foot a {
+    color: #88898b;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border-color: transparent;
+}
+
+.cards:hover {
+    border: 2px solid red;
+}
+
+#gits:hover {
+    background-color: red;
+    border-color: red;
+}
+
+/* sketch start */
+.sketch {
+    background: #f2f6f7;
+}
+
+.s-head {
+    margin-top: 60px;
+
+}
+
+.s-head h5 {
+
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#mycard {
+    width: 150px;
+    background-color: #a92624;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.s-head2 {
+    margin-top: 30px;
+}
+
+.s-head2 h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 40px
+}
+
+.nav {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav a {
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+
+.nav a.active {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    background: #a92624;
+    border-radius: 25px 10px 50px 0px;
+}
+
+.nav a.active:hover {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    background: #a92624;
+    border-radius: 25px 10px 50px 0px;
+}
+
+.nav a:hover {
+    color: #a92624;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#p-right {
+    background-color: #a92624;
+    padding: 20px;
+    color: white;
+}
+
+.plan-right {
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.plan-right h2 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: right;
+}
+
+.plan-right p {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: justify;
+}
+
+.measure {
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.measure p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.brs {
+    color: #048c38;
+}
+
+.d-grid {
+    margin-top: 30px;
+}
+
+.previous {
+    background-color: #afacac;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.previous:hover {
+    background-color: #a92624;
+    color: white;
+}
+
+.next {
+    background-color: #048c38;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.next:hover {
+    background-color: #e3d6ce;
+}
+.page{
+    float: right;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
