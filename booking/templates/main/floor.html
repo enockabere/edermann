@@ -1,0 +1,173 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+{% block content %}
+<section class="sketch">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head ">
+                    <div class=" mx-auto text-center" id="mycard">
+                        <h5>Select unit</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head2 mx-auto text-center">
+                    <h2> <span class="brs">Greatwall Gardens 5</span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="f-left">
+                <h3>Select Floor <i class="far fa-check-square" style="color:#85C1E9 "></i></h3>
+                <div class="f-card">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="1">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Ground Floor
+                        </label>
+
+                    </div>
+                    <button type="submit" class="btn btn-success ">Next <i
+                            class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="f-card">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="2">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            First Floor
+                        </label>
+
+                    </div>
+                    <button type="submit" class="btn btn-success ">Next <i
+                            class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="f-card">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="3">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Second Floor
+                        </label>
+
+                    </div>
+                    <button type="submit" class="btn btn-success ">Next <i
+                            class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="f-card">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="4">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Third Floor
+                        </label>
+
+                    </div>
+                    <button type="submit" class="btn btn-success ">Next <i
+                            class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="f-card">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="5">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Fifth Floor
+                        </label>
+
+                    </div>
+                    <button type="submit" class="btn btn-success ">Next <i
+                            class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+            </div>
+            <div class="col-md-8" id="f-right">
+                <form action="">
+                <div class="row">
+                    <div class="right-head">
+                        <h3>Select Unit <i class="far fa-check-square" style="color:#85C1E9 "></i></h3>
+                        <p>
+                            Please select your preferred unit then click NEXT
+                        </p>
+                    </div>
+
+                        <div class="col-md-3">
+                            <div class="r-card">
+                                <div class="r-head mx-auto text-center">
+                                    <div class="try">
+                                        <i class="fas fa-home" style="color: white;font-size: 39px;"></i>
+                                    </div>
+                                    <p><strong>Status</strong><span class="brs"> Available</span></p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="5">
+                                        <label class="form-check-label mb-2" for="flexCheckDefault">
+                                            House A01
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="r-card">
+                                <div class="r-head mx-auto text-center">
+                                    <div class="trys">
+                                        <i class="fas fa-lock" style="color: white;font-size: 39px;"></i>
+                                    </div>
+                                    <p><strong>Status</strong><span class="br"> Booked</span></p>
+                                    <label class="form-check-label mx-auto text-center mb-2">
+                                        House A02
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="r-card">
+                                <div class="r-head mx-auto text-center">
+                                    <div class="try">
+                                        <i class="fas fa-home" style="color: white;font-size: 39px;"></i>
+                                    </div>
+                                    <p><strong>Status</strong><span class="brs"> Available</span></p>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="5">
+                                        <label class="form-check-label mb-2" for="flexCheckDefault">
+                                            House A03
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="r-card">
+                                <div class="r-head mx-auto text-center">
+                                    <div class="trys">
+                                        <i class="fas fa-lock" style="color: white;font-size: 39px;"></i>
+                                    </div>
+                                    <p><strong>Status</strong><span class="br"> Booked</span></p>
+                                    <label class="form-check-label mx-auto text-center mb-2">
+                                        House A04
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-success" type="button">Next <i
+                        class="fas fa-long-arrow-alt-right"></i></button>
+                  </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page">
+                    <a href="#" class="previous">&laquo; Previous</a>
+                    <a href="#" class="next disabled">Next &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% include '../footer.html' %}
+{% endblock %}

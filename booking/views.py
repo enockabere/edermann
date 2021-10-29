@@ -8,4 +8,4 @@ def sketch(request):
 def block(request):
     return render(request,'main/block.html')
 def floor(request):
-    return render(request,'main/floor')
+    return render(request,'main/floor.html')

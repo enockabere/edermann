@@ -1,0 +1,81 @@
+/* floor start */
+#f-left{
+    margin-top: 40px;
+    background-color: #D0D3D4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
+}
+#f-left h3{
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-size: 21px;
+    margin-left: 20px;
+}
+.f-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin:20px;
+    border: 2px solid white;
+}
+.form-check{
+    display: inline-block;
+}
+.f-card button{
+    float: right;
+    border-radius: 25px 10px 50px 0px;
+}
+.f-card:hover{
+    border-color: #129948;
+}
+#f-right{
+    background-color: #ECF0F1;
+    margin-top: 40px;
+}
+.r-card{
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 20px;
+    margin:20px;
+    border: 2px solid white;
+}
+.r-card:hover{
+    background-color: #e3d6ce;
+    border: 2px solid #129948;
+}
+
+.try{
+    background-color: #129948;
+    margin-left: 30px;
+    margin-right: 30px ;
+    padding: 10px;
+    border-radius: 8px;
+}
+.trys{
+    background-color: #db271f;
+    margin-left: 30px;
+    margin-right: 30px ;
+    padding: 10px;
+    border-radius: 8px;
+}
+.r-card p{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 10px;
+}
+.right-head h3{
+    font-family: 'Noto Sans', sans-serif;
+    margin-left: 20px;
+    font-size: 21px;
+    margin-top: 15px;
+}
+.right-head p{
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgb(122, 121, 120);
+}
+.d-grid button{
+    border-radius: 25px 10px 50px 0px;
+}
