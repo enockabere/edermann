@@ -43,3 +43,10 @@
         border-radius: 8px;
     }
 }
+/* floor start */
+#f-left{
+    background-color: #e48c8c;
+    margin-top: -20px;
+    margin-left: -4px;
+    height: 100%;
+}

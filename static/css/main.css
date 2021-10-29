@@ -122,13 +122,13 @@
     font-size: 40px
 }
 
-.nav {
+#s-nav {
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.nav a {
+#s-nav a {
     color: black;
     font-family: 'Titillium Web', sans-serif;
     margin-right: 20px;
@@ -223,4 +223,31 @@
     float: right;
     margin-top: 20px;
     padding-bottom: 20px;
+}
+/* block start */
+.b-card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
+}
+.b-card:hover{
+    background-color: #e48c8c;
+    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
+}
+.b-image img {
+    width: 100px;  
+    border-radius: 50%;
+    height: auto; 
+}
+.b-body h5{
+    font-family: 'Noto Sans', sans-serif;
+}
+.b-footer button{
+    border-radius: 50px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.modal-header{
+    background-color: #e48c8c;
+    font-family: 'Titillium Web', sans-serif;
 }

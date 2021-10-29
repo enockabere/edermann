@@ -1,0 +1,174 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+{% block content %}
+<section class="sketch">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head ">
+                    <div class=" mx-auto text-center" id="mycard">
+                        <h5>Choose Block</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head2 mx-auto text-center">
+                    <h2> <span class="brs">Greatwall Gardens 5</span></h2>
+                    <p>
+                        Thank you for choosing to invest at <span class="brs">Greatwall Gardens</span>.
+                        Please select your preferred block then click NEXT
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-md-2 ">
+                <div class="b-card">
+                   <div class="b-image mx-auto text-center">
+                    <img src="../../../static/img/auth/3.png" class="img-fluid" alt="" srcset="">
+                   </div> 
+                   <div class="b-body mx-auto text-center">
+                       <h5>Block A</h5>
+                   </div>
+                   <div class="b-footer mx-auto text-center">
+                       <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="b-card">
+                   <div class="b-image mx-auto text-center">
+                    <img src="../../../static/img/auth/3.png" class="img-fluid" alt="" srcset="">
+                   </div> 
+                   <div class="b-body mx-auto text-center">
+                       <h5>Block B</h5>
+                   </div>
+                   <div class="b-footer mx-auto text-center">
+                       <button type="submit" class="btn btn-success">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="b-card">
+                   <div class="b-image mx-auto text-center">
+                    <img src="../../../static/img/auth/3.png" class="img-fluid" alt="" srcset="">
+                   </div> 
+                   <div class="b-body mx-auto text-center">
+                       <h5>Block C</h5>
+                   </div>
+                   <div class="b-footer mx-auto text-center">
+                       <button type="submit" class="btn btn-success">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="b-card">
+                   <div class="b-image mx-auto text-center">
+                    <img src="../../../static/img/auth/3.png" class="img-fluid" alt="" srcset="">
+                   </div> 
+                   <div class="b-body mx-auto text-center">
+                       <h5>Block D</h5>
+                   </div>
+                   <div class="b-footer mx-auto text-center">
+                       <button type="submit" class="btn btn-success">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="b-card">
+                   <div class="b-image mx-auto text-center">
+                    <img src="../../../static/img/auth/3.png" class="img-fluid" alt="" srcset="">
+                   </div> 
+                   <div class="b-body mx-auto text-center">
+                       <h5>Block E</h5>
+                   </div>
+                   <div class="b-footer mx-auto text-center">
+                       <button type="submit" class="btn btn-success">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="b-card">
+                   <div class="b-image mx-auto text-center">
+                    <img src="../../../static/img/auth/3.png" class="img-fluid" alt="" srcset="">
+                   </div> 
+                   <div class="b-body mx-auto text-center">
+                       <h5>Block F</h5>
+                   </div>
+                   <div class="b-footer mx-auto text-center">
+                       <button type="submit" class="btn btn-success">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page">
+                    <a href="#" class="previous">&laquo; Previous</a>
+                    <a href="#" class="next disabled">Next &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Choose Floor</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col-md-4" id="f-left">
+                    <nav class="nav nav-pills flex-column pt-3">
+                        <a href="#" class="nav-item nav-link active">
+                            <i class="bi-house-door"></i> Ground Floor
+                        </a>
+                        <a href="#" class="nav-item nav-link">
+                            <i class="bi-person"></i> First Floor
+                        </a>
+                        <a href="#" class="nav-item nav-link">
+                            <i class="bi-envelope"></i> Second Floor
+                        </a>
+                    </nav>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="b-card">
+                               <div class="b-image mx-auto text-center">
+                                <img src="../../../static/img/auth/3.png" class="img-fluid" alt="" srcset="">
+                               </div> 
+                               <div class="b-body mx-auto text-center">
+                                   <h5>Block F</h5>
+                               </div>
+                               <div class="b-footer mx-auto text-center">
+                                   <button type="submit" class="btn btn-success">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</section>
+{% include '../footer.html' %}
+{% endblock %}
