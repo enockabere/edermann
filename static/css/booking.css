@@ -1,0 +1,23 @@
+.b-head h4{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+}
+.b-icon button{
+    border-radius: 50px;
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+}
+.b-icon p{
+    display: inline-block;
+    margin-left: 20px;
+    color: green;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+
+}
+.b-icon{
+    margin-top: 40px;
+    border-bottom: 2px solid green;
+}

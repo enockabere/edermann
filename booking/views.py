@@ -9,3 +9,5 @@ def block(request):
     return render(request,'main/block.html')
 def floor(request):
     return render(request,'main/floor.html')
+def booking(request):
+    return render(request,'main/booking.html')
