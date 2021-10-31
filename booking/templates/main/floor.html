@@ -2,7 +2,8 @@
 {% load bootstrap5 %}
 {% load static %}
 {% block content %}
-<section class="sketch">
+<section class="estate1">
+    {% include 'navbar.html' %}
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -21,64 +22,50 @@
             </div>
         </div>
     </div>
+</section>
+<section class="sketch">
     <div class="container">
         <div class="row">
             <div class="col-md-4" id="f-left">
                 <h3>Select Floor <i class="far fa-check-square" style="color:#85C1E9 "></i></h3>
                 <div class="f-card">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="1">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Ground Floor
-                        </label>
-
-                    </div>
-                    <button type="submit" class="btn btn-success ">Next <i
-                            class="fas fa-long-arrow-alt-right"></i></button>
+                    <form action="">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="1">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Ground Floor
+                            </label>
+    
+                        </div>
+                        <button type="submit" class="btn btn-success ">Next <i
+                                class="fas fa-long-arrow-alt-right"></i></button>
+                    </form>
                 </div>
                 <div class="f-card">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="2">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            First Floor
-                        </label>
-
-                    </div>
-                    <button type="submit" class="btn btn-success ">Next <i
-                            class="fas fa-long-arrow-alt-right"></i></button>
+                    <form action="">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="2">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                First Floor
+                            </label>
+    
+                        </div>
+                        <button type="submit" class="btn btn-success ">Next <i
+                                class="fas fa-long-arrow-alt-right"></i></button>
+                    </form>
                 </div>
                 <div class="f-card">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="3">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Second Floor
-                        </label>
-
-                    </div>
-                    <button type="submit" class="btn btn-success ">Next <i
-                            class="fas fa-long-arrow-alt-right"></i></button>
-                </div>
-                <div class="f-card">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="4">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Third Floor
-                        </label>
-
-                    </div>
-                    <button type="submit" class="btn btn-success ">Next <i
-                            class="fas fa-long-arrow-alt-right"></i></button>
-                </div>
-                <div class="f-card">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="5">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Fifth Floor
-                        </label>
-
-                    </div>
-                    <button type="submit" class="btn btn-success ">Next <i
-                            class="fas fa-long-arrow-alt-right"></i></button>
+                    <form action="">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="3">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Second Floor
+                            </label>
+    
+                        </div>
+                        <button type="submit" class="btn btn-success ">Next <i
+                                class="fas fa-long-arrow-alt-right"></i></button>
+                    </form>
                 </div>
             </div>
             <div class="col-md-8" id="f-right">
@@ -90,7 +77,6 @@
                             Please select your preferred unit then click NEXT
                         </p>
                     </div>
-
                         <div class="col-md-3">
                             <div class="r-card">
                                 <div class="r-head mx-auto text-center">
@@ -150,24 +136,14 @@
                             </div>
                         </div>
                 </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-success" type="button">Next <i
-                        class="fas fa-long-arrow-alt-right"></i></button>
-                  </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3" id="page">
+                    <a href="#" class="previous">&laquo; Previous</a>
+                    <a href="{% url 'terms' %}" class="next disabled">Next &raquo;</a>
+                </div>
             </form>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page">
-                    <a href="#" class="previous">&laquo; Previous</a>
-                    <a href="#" class="next disabled">Next &raquo;</a>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
-{% include '../footer.html' %}
+{% include 'footer.html' %}
 {% endblock %}

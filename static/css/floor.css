@@ -4,6 +4,7 @@
     background-color: #D0D3D4;
     padding: 15px;
     border-radius: 8px;
+    margin-bottom: 20px;
     box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
 }
 #f-left h3{
@@ -11,6 +12,7 @@
     color: black;
     font-size: 21px;
     margin-left: 20px;
+
 }
 .f-card{
     background-color: white;

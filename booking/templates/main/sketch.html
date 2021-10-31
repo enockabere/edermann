@@ -2,7 +2,8 @@
 {% load bootstrap5 %}
 {% load static %}
 {% block content %}
-<section class="sketch">
+<section class="estate1">
+    {% include 'navbar.html' %}
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -16,10 +17,15 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="s-head2 mx-auto text-center">
-                    <h2> <span class="brs">Greatwall Gardens 5</span> Apartments Plan</h2>
+                    <h2> <span class="brs">Greatwall Gardens 5</span> </h2>
+                    <h2>Apartments Plan</h2>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+<section class="sketch">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <nav class="nav" id="s-nav" role="tablist">
@@ -31,7 +37,7 @@
                         <a href="#g-plan" class=" nav-link" data-bs-toggle="tab">
                             <i class="fa fa-file"></i> Block A sample Ground Plan
                         </a>
-                        <a href="#" class=" nav-link" data-bs-toggle="tab">
+                        <a href="{% url 'block' %}" class=" nav-link" data-bs-toggle="tab">
                             <i class="fa fa-window-close"></i> Skip Page
                         </a>
                 </nav>
@@ -179,17 +185,15 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="page">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3" id="page">
                     <a href="#" class="previous">&laquo; Previous</a>
-                    <a href="#" class="next">Next &raquo;</a>
+                    <a href="{% url 'block' %}" class="next disabled">Next &raquo;</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-{% include '../footer.html' %}
+{% include 'footer.html' %}
 {% endblock %}

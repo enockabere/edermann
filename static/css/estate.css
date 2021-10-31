@@ -1,0 +1,23 @@
+.estate1 {
+    background: linear-gradient(rgba(238, 235, 235, 0.5),
+            rgba(243, 239, 239, 0.5)), url(../img/sketch/decoration-city.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.3s all;
+}
+.r-logo img{
+    width: 90px;
+}
+.r-logo{
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: -20px;
+    width: 120px;
+    margin-left: 28%;
+    padding: 10px;
+}
+#blocks{
+    margin-top: 20px;
+    margin-bottom: 20px
+}

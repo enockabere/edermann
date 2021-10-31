@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+{% block content %}
+<section class="estate1">
+    {% include 'navbar.html' %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head ">
+                    <div class=" mx-auto text-center" id="mycard">
+                        <h5>Choose Block</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head2 mx-auto text-center">
+                    <h2> <span class="brs">Greatwall Gardens 5</span></h2>
+                    <p>
+                        Thank you for choosing to invest at <span class="brs">Greatwall Gardens</span>.
+                    </p>
+                    <p>
+                        Please select your prefference from the below options then click NEXT.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sketch">
+    <form action="">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-md-3 mt-3">
+                    <div class="b-card">
+                        <div class="e-image mx-auto text-center">
+                            <img src="../../../static/img/sketch/TRE-BLOCK-3-600x375.jpg" class="img-fluid" alt=""
+                                srcset="">
+                            <div class="r-logo">
+                                <img src="../../../static/img/logo/Logo-02.png" class="img-fluid" alt="" srcset="">
+                            </div>
+                        </div>
+
+                        <div class="b-body mx-auto text-center mt-2">
+                            <h5>GREATWALL GARDENS 5</h5>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Select GWG 5
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="b-card">
+                        <div class="e-image mx-auto text-center">
+                            <img src="../../../static/img/sketch/TRE-BLOCK-3-600x375.jpg" class="img-fluid" alt=""
+                                srcset="">
+                            <div class="r-logo">
+                                <img src="../../../static/img/logo/Logo-02.png" class="img-fluid" alt="" srcset="">
+                            </div>
+                        </div>
+
+                        <div class="b-body mx-auto text-center mt-2">
+                            <h5>GREATWALL GARDENS 6</h5>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Select GWG 6
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="b-card">
+                        <div class="e-image mx-auto text-center">
+                            <img src="../../../static/img/sketch/TRE-BLOCK-3-600x375.jpg" class="img-fluid" alt=""
+                                srcset="">
+                            <div class="r-logo">
+                                <img src="../../../static/img/logo/Logo-02.png" class="img-fluid" alt="" srcset="">
+                            </div>
+                        </div>
+
+                        <div class="b-body mx-auto text-center mt-2">
+                            <h5>GREATWALL GARDENS 7</h5>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Select GWG 7
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="b-card">
+                        <div class="e-image mx-auto text-center">
+                            <img src="../../../static/img/sketch/TRE-BLOCK-3-600x375.jpg" class="img-fluid" alt=""
+                                srcset="">
+                            <div class="r-logo">
+                                <img src="../../../static/img/logo/Logo-02.png" class="img-fluid" alt="" srcset="">
+                            </div>
+                        </div>
+
+                        <div class="b-body mx-auto text-center mt-2">
+                            <h5>GREATWALL GARDENS 8</h5>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Select GWG 8
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3" id="page">
+                    <a href="#" class="previous">&laquo; Previous</a>
+                    <a href="{% url 'sketch' %}" class="next disabled">Next &raquo;</a>
+                </div>
+            </div>
+        </div>
+       
+    </form>
+
+</section>
+
+{% include 'footer.html' %}
+{% endblock %}

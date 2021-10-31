@@ -97,10 +97,9 @@
 }
 
 .s-head {
-    margin-top: 60px;
+    margin-top: 20px;
 
 }
-
 .s-head h5 {
 
     font-size: 14px;
@@ -224,11 +223,17 @@
 .next:hover {
     background-color: #e3d6ce;
 }
-.page{
+#page{
     float: right;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+
 }
+#page a{
+    padding: 12px;
+    border-radius: 25px 10px 40px 0px;
+}
+
 /* block start */
 .b-card{
     background-color: white;
@@ -363,6 +368,11 @@
     }
     #cards2{
         margin-top: 5px;
+    }
+    .page{
+        float: right;
+        margin-left: 0px;
+        text-align: center;
     }
 }@media screen and (min-width: 768px) and (max-width: 991px) {
     .l-text {
