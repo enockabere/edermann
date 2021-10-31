@@ -42,4 +42,7 @@
         background-color: #f2f6f7;
         border-radius: 8px;
     }
+    .l-text h4{
+        color: red;
+    }
 }

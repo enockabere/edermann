@@ -1,0 +1,409 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+{% block content %}
+<section class="sketch">
+    {% include 'navbar.html' %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head ">
+                    <div class=" mx-auto text-center" id="mycard">
+                        <h5>Booking</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head2 mx-auto text-center">
+                    <h2> <span class="brs">Greatwall Gardens 5</span></h2>
+                    <p>
+                        Hello[user]. Thank you for choosing to invest at <span class="brs">[Greatwall Gardens]</span>.
+                    </p>
+                    <p>
+                        Please input your details on the below form. Items marked with an asterisk (<span class="br">*</span> ) are mandatory.
+                        Click NEXT when completed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="b-head">
+                    <h4>Apartment [A04]</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="b-icon">
+                <button class="btn btn-success">2</button>
+                <p>Individual Booking Details</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <form action="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-head">
+                                <h6 class="br">
+                                    PERSONAL DETAILS (*)
+                                </h6>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">TITLE</label>
+                                    <select class="form-select" id="autoSizingSelect">
+                                        <option selected value="Mr">Mr</option>
+                                        <option value="Mr">Mr</option>
+                                        <option value="Mrs">Mrs</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">Surname</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Surname">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">First name</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="First name">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">Last name</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Last name">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Nationality</label>
+                                    <select class="form-select" id="autoSizingSelect">
+                                        <option selected value="Kenyan">Kenya</option>
+                                        <option value="#">Rwanda</option>
+                                        <option value="#">Tanzania</option>
+                                      </select>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-2">
+                                    <h6 class="brs">IDENTIFICATION TYPE</h6>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            National ID
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Passport
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Millitary
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Other
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="ID Number">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Mobile Number 1</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Mobile Number 1">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Mobile Number 2</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Mobile Number 2">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Email Address</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">PIN Number</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="PIN Number">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">Postal Address</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Postal Address">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">Code</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Code">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">City</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="City">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Current Residence">
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Unit on Offer Price
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Unit on Normal Price
+                                        </label>
+                                      </div>
+                                </div>
+                            </div><hr>
+                            <div class="form-head">
+                                <h6 class="br">
+                                    NEXT OF KIN DETAILS (*)
+                                </h6>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">TITLE</label>
+                                    <select class="form-select" id="autoSizingSelect">
+                                        <option selected value="Mr">Mr</option>
+                                        <option value="Mr">Mr</option>
+                                        <option value="Mrs">Mrs</option>
+                                      </select>
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">Surname</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Surname">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">First name</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="First name">
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="specificSizeInputName">Last name</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Last name">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Nationality</label>
+                                    <select class="form-select" id="autoSizingSelect">
+                                        <option selected value="Kenyan">Kenya</option>
+                                        <option value="#">Rwanda</option>
+                                        <option value="#">Tanzania</option>
+                                      </select>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Relationship</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Relationship">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Mobile</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Mobile">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Email Address</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-8">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            By clicking next you confirm that the details provided above are true.
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-success" type="submit" style="float: right;">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+              </form> 
+          </div>
+        </div>
+    </div>
+    <!-- CORPORATE BOOKING  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="b-head">
+                    <h4>Apartment [A04]</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="b-icon">
+                <button class="btn btn-success">2</button>
+                <p>Corporate Booking Details</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <form action="">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-head">
+                                <h6 class="br">
+                                    COMPANY DETAILS (*)
+                                </h6>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <label for="specificSizeInputName">COMPANY NAME</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="COMPANY NAME">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">REGISTRATION NO.</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="REGISTRATION NO.">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <h6 class="brs">REGISTERED COMPANY</h6>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Sole Proprietor
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Private Limited
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Public Limited
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                            Public Limited
+                                        </label>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Mobile Number 1</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Mobile Number 1">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Mobile Number 2</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Mobile Number 2">
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="specificSizeInputName">Email Address</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">PIN Number</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="PIN Number">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">Postal Address</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Postal Address">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">Code</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Code">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="specificSizeInputName">City</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="City">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-12">
+                                    <label for="specificSizeInputName">HEAD OFFICE LOCATION</label>
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="HEAD OFFICE LOCATION">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-4">
+                                    <h6 class="brs">PRINCIPAL CONTACT PERSON</h6>
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Mobile">
+                                </div>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email Address">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-md-8">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        <label class="form-check-label" for="flexCheckChecked">
+                                            By clicking next you confirm that the details provided above are true.
+                                        </label>
+                                      </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-success" type="submit" style="float: right;">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+              </form> 
+          </div>
+        </div>
+    </div>
+
+    <!-- End CORPORATE BOOKING  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page">
+                    <a href="#" class="previous">&laquo; Previous</a>
+                    <a href="#" class="next disabled">Next &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+{% include '../footer.html' %}
+{% endblock %}

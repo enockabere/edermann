@@ -2,58 +2,63 @@
     background: transparent;
 }
 
-.navbar-brand {
-    background-color: #e7e0f3;
-    padding: 10px;
-    border-radius: 4px 10px 50px 0px;
-    padding-right: 20px;
+.navbar-brand img {
+   max-width: 150px;
 }
-
+.color{
+    background-color:whitesmoke;
+    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
+    z-index: 900;
+}
 .landing {
-    margin-top: -90px;
-    height: 110vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../img/7.png);
+    min-height: 100vh;
+    background: linear-gradient(rgba(238, 235, 235, 0.5),
+            rgba(243, 239, 239, 0.5)), url(../img/sketch/map.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.3s all;
 }
 
 .l-text {
-    margin-top: 280px;
+    margin-top: 50px;
+    padding-right: 40px;
 }
 
 .l-text h4 {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
     font-size: 36px;
-    color: white;
+    color: #048c38;
     margin-bottom: 18px;
     font-weight: 900;
+    line-height: 1.5em;
+    height: 3em;
+    overflow: hidden;
 }
 
-.l-text p {
+.l-image p {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 19px;
-    color: #eceff7;
+    font-size: 14px;
+    color: #3b3b3b;
     line-height: 24px;
+    margin-top: 15px;
 }
-
+.l-image img{
+    width: 350px;
+}
 .cards {
     background-color: white;
     margin-top: 170px;
     padding: 20px;
-    border-radius: 8px
+    border-radius: 8px;
+    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
 }
 
-.cards h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-}
-
-.c-image {
-    width: 180px;
+.c-image img{
+    width: 160px;
+    height: 160px;
 }
 
 .cards p {
@@ -246,4 +251,139 @@
 .b-footer button{
     border-radius: 50px;
     font-family: 'Titillium Web', sans-serif;
+}
+/* footer */
+.footer {
+    background-color:#e3d6ce;
+    z-index: 900;
+}
+.f-logo{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.f-logo h6{
+    color: #048c38;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+.f-logo p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: #000000;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.f-logo ul{
+    list-style:none;
+    padding-left: 2em;
+    text-indent: -2em;
+}
+.f-logo ul,li, a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+}
+.f-logo ul,li, a:hover{
+    color: #048c38;
+}
+.f-logo button{
+    background-color: #ffffff;
+    border: 1px solid #048c38;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.f-logo button:hover{
+    background-color: #048c38;
+    border: 1px solid #048c38;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #048c38;
+  }
+  .small{
+      display: none;
+  }
+  .small p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #3b3b3b;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.small img{
+    width: 350px;
+}
+  @media screen and (max-width: 767px) {
+    .l-text {
+        margin-top: 30px;
+    }
+    
+    .l-text h4 {
+        text-align: center;
+        font-family: 'Prompt', sans-serif;
+        font-size: 33px;
+        color: #048c38;
+        margin-bottom: 8px;
+    }
+
+    .l-image{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+    .small img{
+        width: 300px;
+    }
+    .c-card{
+        margin-top: -100px;
+        margin-bottom: 20px;
+    }
+    #cards2{
+        margin-top: 5px;
+    }
+}@media screen and (min-width: 768px) and (max-width: 991px) {
+    .l-text {
+        margin-top: 30px;
+    }
+    
+    .l-text h4 {
+        text-align: left;
+        font-family: 'Prompt', sans-serif;
+        font-size: 25px;
+        color: #048c38;
+        margin-bottom: 8px;
+    }
+    .l-image img{
+        width: 300px;
+    }
+    .c-card{
+        margin-top: -100px;
+        margin-bottom: 20px;
+    }
+    .c-image img{
+        width: 200px;
+    }
 }

@@ -11,3 +11,5 @@ def floor(request):
     return render(request,'main/floor.html')
 def booking(request):
     return render(request,'main/booking.html')
+def individual(request):
+    return render(request,'main/individual.html')
