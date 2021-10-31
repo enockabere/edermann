@@ -2,7 +2,7 @@
 {% load bootstrap5 %}
 {% load static %}
 {% block content %}
-<section class="sketch">
+<section class="estate1">
     {% include 'navbar.html' %}
     <div class="container-fluid">
         <div class="row">
@@ -23,12 +23,13 @@
                     </p>
                     <p>
                         Please input your details on the below form. Items marked with an asterisk (<span class="br">*</span> ) are mandatory.
-                        Click NEXT when completed.
                     </p>
                 </div>
             </div>
         </div>
     </div>
+</section> 
+<section class="sketch">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -237,8 +238,9 @@
                                         </label>
                                       </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <button class="btn btn-success" type="submit" style="float: right;">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3" id="page">
+                                    <a href="#" class="previous">&laquo; Previous</a>
+                                    <a href="{% url 'individual' %}" class="next disabled">Next &raquo;</a>
                                 </div>
                             </div>
                         </div>
@@ -381,8 +383,9 @@
                                         </label>
                                       </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <button class="btn btn-success" type="submit" style="float: right;">Next <i class="fas fa-long-arrow-alt-right"></i></button>
+                                <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3" id="page">
+                                    <a href="#" class="previous">&laquo; Previous</a>
+                                    <a href="{% url 'individual' %}" class="next disabled">Next &raquo;</a>
                                 </div>
                             </div>
                         </div>
@@ -394,16 +397,6 @@
     </div>
 
     <!-- End CORPORATE BOOKING  -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="page">
-                    <a href="#" class="previous">&laquo; Previous</a>
-                    <a href="#" class="next disabled">Next &raquo;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> 
+</section>
 {% include '../footer.html' %}
 {% endblock %}

@@ -7,7 +7,7 @@
 }
 .color{
     background-color:whitesmoke;
-    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
+    box-shadow: 5px 10px 8px 5px rgb(231, 229, 229);
     z-index: 900;
 }
 .landing {

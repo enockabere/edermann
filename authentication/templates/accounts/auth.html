@@ -6,19 +6,20 @@
     <div class="container-fluid px-0">
         <div class="row">
             <div class="col-md-6" id="a-left">
+                <div class="a-logo mx-auto text-center">
+                    <div class="logs">
+                        <img src="../../../static/img/logo/Logo-01.png" class="img-fluid" alt="" srcset="">
+                    </div>
+                </div>
             </div>
             <div class="col-md-6" id="a-right">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="t-right">
-                            <p>
-                                Welcome to <span class="br">Edermann Property Ltd</span>
-                            </p>
+                        <div class="t-right mx-auto text-center">
+                            <img src="../../../static/img/auth/2.png" class="img-fluid" alt="" srcset="">
                         </div>
                         <div class="t-right2">
-                            <p>
-                                Building Affordable & Decent Houses for Middle & Low Income Earners.
-                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -27,7 +28,8 @@
                         <div class="form-text">
                             <h3>Sign In</h3>
                             <p>
-                                Don't have an account? <a href="" id="reg" style="text-decoration: none;">Register</a>
+                                Don't have an account? <a href="" id="reg"
+                                    style="text-decoration: none;color:green">Register</a>
                             </p>
                         </div>
                     </div>
@@ -52,7 +54,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <a href="" type="button" id="sub" class="btn btn-primary btn-block btn-lg"
+                                        <a href="{% url 'booking' %}" type="button" id="sub" class="btn btn-primary btn-block btn-lg"
                                             style="text-decoration:none;color:white">Login</a>
                                     </div>
                                 </form>
@@ -67,7 +69,8 @@
                         <div class="form-texts">
                             <h3>REGISTER</h3>
                             <p id="login">
-                                Already have an account? <a href="" id="log" style="text-decoration: none;">Login</a>
+                                Already have an account? <a href="" id="log"
+                                    style="text-decoration: none;color:green">Login</a>
                             </p>
                         </div>
                     </div>
@@ -131,12 +134,81 @@
                                     <div class="form-group">
                                         <button type="submit" class="btn btn-primary btn-block btn-lg">Sign Up</button>
                                     </div>
-                                    <p class="small">By clicking the Sign Up button, you agree to our <br><a
-                                            href="#">Terms &amp; Conditions</a>, and <a href="#">Privacy Policy</a>.</p>
+                                    <p class="smaller">By clicking the Sign Up button, you agree to our <br><a href="#"
+                                            data-bs-toggle="modal" data-bs-target="#exampleModal">Terms &amp;
+                                            Conditions</a>, and <a href="#">Privacy Policy</a>.</p>
                                 </form>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</section>
+<section class="terms">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Terms and Conditions</h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="top">
+                        <h4>Agreement to Terms</h4>
+                        <p>
+                            These Terms and Conditions constitute a legally binding agreement made between you,
+                            whether personally or on behalf of an entity (“you”) and [business entity name]
+                            (“we,” “us” or “our”), concerning your access to and use of the [website name.com]
+                            website as well as any other media form, media channel, mobile website or mobile
+                            application related, linked, or otherwise connected thereto (collectively, the “Site”).
+                        </p>
+                        <p>
+                            By registering to the Site, you agree and warrant that:
+                        </p>
+                        <ol>
+                            <li>The booking fee for Greatwall Gardens 5 is Ksh. 30,000</li>
+                            <li>The booking fees are non-refundable</li>
+                            <li>Paying a booking fee does not warrant ownership of unit(s)</li>
+                            <li>The booking fee is payable once and in full</li>
+                        </ol>
+                        <h4>INTELLECTUAL PROPERTY RIGHTS</h4>
+                        <p>
+                            Unless otherwise indicated, the Site is our proprietary property and all source code,
+                            databases,
+                            functionality, software, website designs, audio, video, text, photographs, and graphics on
+                            the
+                            Site (collectively, the “Content”) and the trademarks, service marks, and logos contained
+                            therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by
+                            copyright and trademark laws and various other intellectual property rights and unfair
+                            competition laws of the United States, foreign jurisdictions, and international conventions.
+                        </p>
+                        <h4>USER REPRESENTATIONS</h4>
+                        <p>
+                            By using the Site, you represent and warrant that:
+                        </p>
+                        <ol>
+                            <li>Other</li>
+                        </ol>
+                        <h4>CONTACT US</h4>
+                        <p>
+                            In order to resolve a complaint regarding the Site or to receive further information
+                            regarding use of the Site, please contact us at:
+                        </p>
+                        <p><strong>[Corporate Name]</strong></p>
+                        <p><strong>[Corporate Phone Number]</strong></p>
+                        <p><strong>[Email Address]</strong></p>
+                        <p><strong>[Corporate Name]</strong></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <div class="texts">
+                        <p>Last updated [month day, year]</p>
+                    </div>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

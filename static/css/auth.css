@@ -9,8 +9,13 @@
     width: 260px;
 }
 .t-right{
-    margin-top: 60px;
+    margin-top: 20px;
     margin-left: 85px;
+}
+.t-right img{
+   width: 150px;
+   height: 150px; 
+   border-radius: 50%;
 }
 .t-right2{
     margin-left: 85px;
@@ -158,4 +163,16 @@ label {
     top: -13px;
     color: #60606A;
     opacity: 1;
+}
+.a-logo img{
+    width: 280px;
+}
+.logs{
+    background-color: #eceff7;
+    padding: 30px;
+    margin-right: 32%;
+    margin-left: 32%;
+    margin-top: 250px;
+    border-radius: 85px 50px 50px 40px;
+
 }
