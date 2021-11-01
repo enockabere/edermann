@@ -1,0 +1,163 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+{% load static %}
+{% block content %}
+<section class="estate1">
+    {% include 'navbar.html' %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head ">
+                    <div class=" mx-auto text-center" id="mycard">
+                        <h5>Payment Options</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="s-head2 mx-auto text-center">
+                    <h2> <span class="brs">Greatwall Gardens 5</span></h2>
+                    <p>
+                        Please complete your booking by following the below options.
+                    </p>
+                    <p>
+                        When complete: click Pay.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sketch">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="f-left">
+                <div class="t-image">
+                    <img src="../../../static/img/payments/2.png" class="img-fluid" alt="" srcset="">
+                </div>
+            </div>
+            <div class="col-md-8" id="f-right">
+                <div class="row">
+                    <div class="right-head">
+                        <h3>PAYMENT DETAILS </h3>
+                    </div>
+                    <div class="col-md-12">
+                        <nav class="nav" id="p-nav" role="tablist">
+                            <a href="#m-pesa" class="nav-link active" data-bs-toggle="tab">
+                                <i class="fa fa-file"></i> MPesa Payments
+                            </a>
+                            <a href="#bank" class=" nav-link" data-bs-toggle="tab">
+                                <i class="fa fa-file"></i> Bank Transfer
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tab-content mt-3" id="tabs">
+                            <div id="m-pesa" class="container tab-pane active"><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="plan-pay">
+                                            <form action="">
+                                                <div class="mb-3">
+                                                    <label for="exampleInputEmail1" class="form-label">M-pesa
+                                                        Payemt</label>
+                                                    <input type="email" class="form-control"
+                                                        placeholder="Enter M-pesa Number to Pay">
+                                                </div>
+                                                <button type="submit" id="pay" class="btn btn-primary">Min. Kshs 30,000
+                                                    Pay <i class="fas fa-long-arrow-alt-right"></i></button>
+                                            </form>
+                                            <h6>
+                                                Dear Customer
+                                            </h6>
+                                            <p>
+                                                You will shortly receive an M-PESA prompt to enter your M-PESA pin to
+                                                complete your transaction.
+                                                Please ensure your phone is on and unlocked to complete the process.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" id="r-pay">
+                                        <div class="tops" style="margin-left: 10px;">
+
+                                            <p class="p-head">
+                                                You can also pay using Lipa na Mpesa by using the below transactions.
+                                            </p>
+                                            <ol>
+                                                <li>Go to the M-PESA Menu.</li>
+                                                <li>Select LIPA NA MPESA</li>
+                                                <li>Select the Paybill Option</li>
+                                                <li>Enter Business Number <strong>0000000</strong></li>
+                                                <li>Enter Account Number: <strong>GWG5/A/A 04</strong></li>
+                                                <li>Input amount <strong>Ksh. 30,000</strong></li>
+                                                <li>Enter your Mpesa PIN and click ok</li>
+                                                <li>An Mpesa confirmation will be sent to you </li>
+
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="bank" class="container tab-pane fade"><br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="plan-pay">
+                                            <form action="">
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                                <button type="submit" id="pay" class="btn btn-primary">Min. Kshs 30,000
+                                                    Pay</button>
+                                            </form>
+                                            <h6>
+                                                CHEQUES ADDRESSED TO:
+                                            </h6>
+                                            <p>
+                                                <span class="br"> ERDEMANN PROPERTY LIMITED</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" id="r-pay">
+                                        <div class="tops" style="margin-left: 10px;">
+                                            
+                                            <p class='p-head'>
+                                                Email us a copy of your payment slip to:
+                                            </p>
+                                            <p>
+                                                <i class="far fa-envelope" style="color:#048c38;"></i> bookings@edermann.co.ke
+                                            </p>
+                                            <p>
+                                                <strong>
+                                                    Feel free to call us on either of the below:
+                                                </strong>
+                                            </p>
+                                            <p>
+                                                <i class="fas fa-phone-volume" style="color:#048c38;"></i>  +254 203 513 306
+                                            </p>
+                                            <p>
+                                                <i class="fas fa-phone-volume" style="color:#048c38;"></i> +254 733 209 709
+                                            </p>
+                                            <p>
+                                                <i class="fas fa-phone-volume" style="color:#048c38;"></i> +254 724 209 709        
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% include 'footer.html' %}
+{% endblock %}

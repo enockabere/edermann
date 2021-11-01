@@ -140,21 +140,21 @@
 
 }
 
-.nav a.active {
+#s-nav a.active {
     color: white;
     font-family: 'Titillium Web', sans-serif;
     background: #a92624;
     border-radius: 25px 10px 50px 0px;
 }
 
-.nav a.active:hover {
+#s-nav a.active:hover {
     color: white;
     font-family: 'Titillium Web', sans-serif;
     background: #a92624;
     border-radius: 25px 10px 50px 0px;
 }
 
-.nav a:hover {
+#s-nav a:hover {
     color: #a92624;
     font-family: 'Titillium Web', sans-serif;
 }

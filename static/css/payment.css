@@ -1,0 +1,62 @@
+#p-nav {
+    align-items: left;
+    justify-content:flex-start;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+#p-nav a {
+    color:  #566573;
+    font-family: 'Titillium Web', sans-serif;
+}
+#p-nav a.active {
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    background: white;
+    border-bottom: 2px solid #048c38;
+}
+#tabs{
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
+    margin-bottom: 20px;
+}
+#pay{
+    background-color: #048c38;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 15px;
+
+}
+.plan-pay h6{
+    color: black;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 15px;
+
+}
+.plan-pay p{
+    color:  #566573;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+
+.tops{
+    background-color: white;
+    padding: 10px;
+}
+.tops p{
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    
+}
+.p-head{
+    color: black;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    text-transform: none;
+}
+.tops ol,li{
+    color: #566573;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+}
