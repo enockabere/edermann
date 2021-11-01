@@ -363,6 +363,21 @@
         margin-top: -100px;
         margin-bottom: 20px;
     }
+    #f-left{
+        display: none;
+    }
+    .try{
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        margin-left: 30%;
+    }
+    .trys{
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        margin-left: 30%;
+    }
     #cards2{
         margin-top: 5px;
     }
@@ -371,11 +386,17 @@
         margin-left: 0px;
         text-align: center;
     }
-}@media screen and (min-width: 768px) and (max-width: 991px) {
+    .right-heads{
+        display: none;
+    }
+    #a-left{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .l-text {
         margin-top: 30px;
     }
-    
     .l-text h4 {
         text-align: left;
         font-family: 'Prompt', sans-serif;

@@ -5,9 +5,24 @@
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
+   
 }
 #f-left h3{
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    font-size: 21px;
+    margin-left: 20px;
+
+}
+#f-lefts{
+    margin-top: 40px;
+    background-color: #D0D3D4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+   
+}
+#f-lefts h3{
     font-family: 'Noto Sans', sans-serif;
     color: black;
     font-size: 21px;
@@ -32,34 +47,51 @@
     border-color: #129948;
 }
 #f-right{
-    background-color: #ECF0F1;
+    background-color: white;
     margin-top: 40px;
+    margin-left: -20px;
+    margin-bottom: 20px;
 }
 .r-card{
     background-color: white;
     border-radius: 8px;
-    padding-top: 20px;
+    padding: 20px;
     margin:20px;
     border: 2px solid white;
+    min-width: 180px;
 }
 .r-card:hover{
     background-color: #e3d6ce;
     border: 2px solid #129948;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .r-card{
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        margin:20px;
+        border: 2px solid white;
+        min-width: 110px;
+    }
 }
 
 .try{
     background-color: #129948;
     margin-left: 30px;
     margin-right: 30px ;
+    width: 60px;
+    height: 60px;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 .trys{
     background-color: #db271f;
     margin-left: 30px;
     margin-right: 30px ;
+    width: 60px;
+    height: 60px;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 50%;
 }
 .r-card p{
     font-family: 'Titillium Web', sans-serif;

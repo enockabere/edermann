@@ -23,6 +23,7 @@ ul.breadcrumb {
   ul.breadcrumb li {
     display: inline;
     font-size: 18px;
+    font-family: 'Titillium Web', sans-serif;
   }
   ul.breadcrumb li+li:before {
     padding: 8px;
@@ -34,6 +35,13 @@ ul.breadcrumb {
     text-decoration: none;
   }
   ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: underline;
+    color: green;
+    text-decoration: none;
+  }
+  #collapseExample{
+    margin-top: 40px;
+    background-color: #D0D3D4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
   }
