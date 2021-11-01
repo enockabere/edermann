@@ -1,8 +1,11 @@
 from django.shortcuts import render
+from . models import Estate
 
 # Create your views here.
 def landing(request):
-    return render(request,'main/landing.html')
+    estate = Estate.objects.all()
+    ctx = {"estate":estate}
+    return render(request,'main/landing.html',ctx)
 def estate(request):
     return render(request,'main/estate.html')
 def sketch(request):

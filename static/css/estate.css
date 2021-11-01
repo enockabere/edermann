@@ -6,17 +6,18 @@
     background-position: center;
     transition: 0.3s all;
 }
-.r-logo img{
+/* .r-logo img{
     width: 90px;
+    height: 90px;
 }
 .r-logo{
     border-radius: 50%;
-    background-color: #fff;
+    background-color: transparent;
     margin-top: -20px;
     width: 120px;
     margin-left: 28%;
     padding: 10px;
-}
+} */
 #blocks{
     margin-top: 20px;
     margin-bottom: 20px

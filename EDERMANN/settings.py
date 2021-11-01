@@ -15,6 +15,9 @@ import os
 import django_heroku
 import dj_database_url
 from decouple import config,Csv
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 MODE=config("MODE", default="dev")
 SECRET_KEY = config('SECRET_KEY')
@@ -67,6 +70,7 @@ INSTALLED_APPS = [
     'booking',
     'material',
     'payments',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -97,6 +101,11 @@ TEMPLATES = [
         },
     },
 ]
+cloudinary.config( 
+  cloud_name = "enock", 
+  api_key = "131559831386722", 
+  api_secret = "fDQuLwrK6ExBtidSqxme_ZzHaxY" 
+)
 
 WSGI_APPLICATION = 'EDERMANN.wsgi.application'
 
