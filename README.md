@@ -30,4 +30,4 @@ Technologies used to develop this application:
 - HTML
 - CSS
 ### Support and contact details
-Should you be unable to access the website, have any recommendations and/or questions, feel free to email me:[anock.abere@student.moringaschool.com]
+Should you be unable to access the website, have any recommendations and/or questions, feel free to email me:[emaeaba@kobby.co.ke]
