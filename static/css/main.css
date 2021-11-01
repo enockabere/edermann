@@ -7,7 +7,6 @@
 }
 .color{
     background-color:whitesmoke;
-    box-shadow: 5px 10px 8px 5px rgb(231, 229, 229);
     z-index: 900;
 }
 .landing {
@@ -118,8 +117,8 @@
 
 .s-head2 {
     margin-top: 30px;
+    padding-bottom: 15px;
 }
-
 .s-head2 h2 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 900;
@@ -231,7 +230,6 @@
 }
 #page a{
     padding: 12px;
-    border-radius: 25px 10px 40px 0px;
 }
 
 /* block start */
@@ -247,7 +245,6 @@
 }
 .b-image img {
     width: 100px;  
-    border-radius: 50%;
     height: auto; 
 }
 .b-body h5{

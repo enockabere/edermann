@@ -18,13 +18,6 @@
             <div class="col-md-12">
                 <div class="s-head2 mx-auto text-center">
                     <h2> <span class="brs">Greatwall Gardens 5</span></h2>
-                    <p>
-                        Thank you for choosing to invest at <span class="brs">Greatwall Gardens</span>.
-                       
-                    </p>
-                    <p>
-                        Please select one from the below then click NEXT
-                    </p>
                 </div>
             </div>
         </div>
@@ -41,6 +34,24 @@
         </div>
         <div class="row">
             <div class="col-md-12">
+                <ul class="breadcrumb">
+                    <li><a href="{% url 'landing' %}">Home</a></li>
+                    <li><a href="{% url 'estate' %}">Apartment</a></li>
+                    <li><a href="{% url 'sketch' %}">Apartment's Plan</a></li>
+                    <li><a href="{% url 'block' %}">Block</a></li>
+                    <li><a href="{% url 'floor' %}">Floor & Unit</a></li>
+                    <li><a href="{% url 'terms' %}">Terms and Conditions</a></li>
+                    <li>Booking Details</li>
+                  </ul>
+            </div>
+            <div class="right-heads">
+                <p>
+                    Please select one from the below then click NEXT
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
                 <div class="b-icon">
                     <button class="btn btn-success">1</button>
                     <p>You are booking As ?</p>
@@ -53,7 +64,7 @@
           <div class="col-md-12">
             <form action="">
                 <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="INDIVIDUAL">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="INDIVIDUAL" selected>
                     <label class="form-check-label" for="inlineCheckbox1">INDIVIDUAL</label>
                   </div>
                   <div class="form-check form-check-inline">
@@ -68,8 +79,7 @@
                     You have selected <span class="br">INDIVIDUAL BOOKING </span>
                    </p>
                   <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3" id="page">
-                    <a href="#" class="previous">&laquo; Previous</a>
-                    <a href="{% url 'individual' %}" class="next disabled">Next &raquo;</a>
+                    <a href="{% url 'individual' %}" class="btn btn-success">Next &raquo;</a>
                 </div>
               </form>
           </div> 
@@ -77,5 +87,5 @@
         </div>
     </div>
 </section> 
-{% include '../footer.html' %}
+{% include 'footer.html' %}
 {% endblock %}

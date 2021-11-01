@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from . models import Estate
+from . models import Estate,Apartment
 
 # Create your views here.
 def landing(request):
@@ -7,7 +7,9 @@ def landing(request):
     ctx = {"estate":estate}
     return render(request,'main/landing.html',ctx)
 def estate(request):
-    return render(request,'main/estate.html')
+    apartment = Apartment.objects.all()
+    ctx = {"apartment":apartment}
+    return render(request,'main/estate.html',ctx)
 def sketch(request):
     return render(request,'main/sketch.html')
 def block(request):

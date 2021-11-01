@@ -16,3 +16,6 @@ class Apartment(models.Model):
     image = CloudinaryField('image')
     date = models.DateTimeField(auto_now_add=True,verbose_name="Date Added")
     estate = models.ForeignKey(Estate,on_delete=models.CASCADE,related_name="estate_name")
+    
+    def __str__(self):
+        return str(self.name)
