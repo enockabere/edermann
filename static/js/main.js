@@ -59,7 +59,3 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-// var images = ['../img/sketch/1.jpg', '../img/sketch/2.jpg', '../img/sketch/3.jpg'];
-// $('.estate1').css({
-//     'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'
-// });
