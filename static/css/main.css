@@ -3,12 +3,14 @@
 }
 
 .navbar-brand img {
-   max-width: 150px;
+    max-width: 150px;
 }
-.color{
-    background-color:whitesmoke;
+
+.color {
+    background-color: whitesmoke;
     z-index: 900;
 }
+
 .landing {
     min-height: 100vh;
     background: linear-gradient(rgba(238, 235, 235, 0.5),
@@ -44,9 +46,11 @@
     line-height: 24px;
     margin-top: 15px;
 }
-.l-image img{
+
+.l-image img {
     width: 350px;
 }
+
 .cards {
     background-color: white;
     margin-top: 170px;
@@ -55,9 +59,9 @@
     box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
 }
 
-.c-image img{
+.c-image img {
     width: 160px;
-    height: 160px;
+    height: auto;
 }
 
 .cards p {
@@ -99,6 +103,7 @@
     margin-top: 20px;
 
 }
+
 .s-head h5 {
 
     font-size: 14px;
@@ -119,6 +124,7 @@
     margin-top: 30px;
     padding-bottom: 15px;
 }
+
 .s-head2 h2 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 900;
@@ -222,87 +228,107 @@
 .next:hover {
     background-color: #e3d6ce;
 }
-#page{
+
+#page {
     float: right;
     margin-top: 20px;
     padding-bottom: 10px;
 
 }
-#page a{
+
+#page a {
     padding: 12px;
 }
 
 /* block start */
-.b-card{
+.b-card {
     background-color: white;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
 }
-.b-card:hover{
+
+.b-card:hover {
     background-color: #e48c8c;
     box-shadow: 5px 10px 8px 10px rgb(231, 229, 229);
 }
+
 .b-image img {
-    width: 100px;  
-    height: auto; 
+    width: 100px;
+    height: auto;
 }
-.b-body h5{
+
+.b-body h5 {
     font-family: 'Noto Sans', sans-serif;
 }
-.b-footer button{
+
+.b-footer button {
     border-radius: 50px;
     font-family: 'Titillium Web', sans-serif;
 }
+
 /* footer */
 .footer {
-    background-color:#e3d6ce;
+    background-color: #e3d6ce;
     z-index: 900;
 }
-.f-logo{
+
+.f-logo {
     padding: 10px;
     margin-top: 20px;
     margin-left: 30px;
 }
-.f-logo h6{
+
+.f-logo h6 {
     color: #048c38;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
 }
-.f-logo p{
+
+.f-logo p {
     font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
     color: #000000;
     line-height: 24px;
     margin-top: 10px;
 }
-.f-logo ul{
-    list-style:none;
+
+.f-logo ul {
+    list-style: none;
     padding-left: 2em;
     text-indent: -2em;
 }
-.f-logo ul,li, a{
+
+.f-logo ul,
+li,
+a {
     text-decoration: none;
     color: #000000;
     line-height: 24px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
 }
-.f-logo ul,li, a:hover{
+
+.f-logo ul,
+li,
+a:hover {
     color: #048c38;
 }
-.f-logo button{
+
+.f-logo button {
     background-color: #ffffff;
     border: 1px solid #048c38;
     border-radius: 50%;
     margin-top: 30px;
 }
-.f-logo button:hover{
+
+.f-logo button:hover {
     background-color: #048c38;
     border: 1px solid #048c38;
     border-radius: 50%;
     margin-top: 30px;
 }
+
 #myBtn {
     display: none;
     position: fixed;
@@ -317,15 +343,17 @@
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: #048c38;
-  }
-  .small{
-      display: none;
-  }
-  .small p {
+}
+
+.small {
+    display: none;
+}
+
+.small p {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -334,14 +362,16 @@
     line-height: 24px;
     margin-top: 15px;
 }
-.small img{
+
+.small img {
     width: 350px;
 }
-  @media screen and (max-width: 767px) {
+
+@media screen and (max-width: 767px) {
     .l-text {
         margin-top: 30px;
     }
-    
+
     .l-text h4 {
         text-align: center;
         font-family: 'Prompt', sans-serif;
@@ -350,53 +380,65 @@
         margin-bottom: 8px;
     }
 
-    .l-image{
+    .l-image {
         display: none;
     }
-    .small{
+
+    .small {
         display: block;
     }
-    .small img{
+
+    .small img {
         width: 300px;
     }
-    .c-card{
+
+    .c-card {
         margin-top: -100px;
         margin-bottom: 20px;
     }
-    #f-left{
+
+    #f-left {
         display: none;
     }
-    .try{
+
+    .try {
         width: 60px;
         height: 60px;
         align-items: center;
         margin-left: 30%;
     }
-    .trys{
+
+    .trys {
         width: 60px;
         height: 60px;
         align-items: center;
         margin-left: 30%;
     }
-    #cards2{
+
+    #cards2 {
         margin-top: 5px;
     }
-    .page{
+
+    .page {
         float: right;
         margin-left: 0px;
         text-align: center;
     }
-    .right-heads{
+
+    .right-heads {
         display: none;
     }
-    #a-left{
+
+    #a-left {
         display: none;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .l-text {
         margin-top: 30px;
     }
+
     .l-text h4 {
         text-align: left;
         font-family: 'Prompt', sans-serif;
@@ -404,14 +446,17 @@
         color: #048c38;
         margin-bottom: 8px;
     }
-    .l-image img{
+
+    .l-image img {
         width: 300px;
     }
-    .c-card{
+
+    .c-card {
         margin-top: -100px;
         margin-bottom: 20px;
     }
-    .c-image img{
+
+    .c-image img {
         width: 200px;
     }
 }
