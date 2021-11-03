@@ -12,7 +12,7 @@
                     <h4>
                         What Are You Looking For..?
                     </h4>
-                    
+
                 </div>
                 <div class="l-image">
                     <img src="../../../static/img/sketch/2.png" class="img-fluid" alt="" srcset="">
@@ -37,17 +37,19 @@
                         <div class="col-md-2">
                         </div>
                         {% for estate in estate %}
-                        <div class="col-md-5 col-sm-12">
+                        <div class="col-md-5 col-sm-12" style="display:flex;">
                             <div class="cards" id="cards2">
                                 <div class="c-image  mx-auto text-center">
-                                    <img src="https://res.cloudinary.com/enock/{{estate.logo}}" class="img-fluid" alt="" srcset="">
+                                    <img src="https://res.cloudinary.com/enock/{{estate.logo}}" class="img-fluid" alt=""
+                                        srcset="">
                                 </div>
                                 <p>
-                                   {{estate.about}}
+                                    {{estate.about}}
                                 </p>
                                 <div class="foot  mx-auto text-center">
-                                    <a href="{% url 'estate' %}" id="btn2" type="button" class="btn btn-outline-success">Book now <i
-                                            class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                    <a href="{% url 'estate' %}" id="btn2" type="button"
+                                        class="btn btn-outline-success">Book now <i class="fa fa-long-arrow-right"
+                                            aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
