@@ -33,7 +33,7 @@
                     <li><a href="{% url 'block' %}">Block</a></li>
                     <li><a href="{% url 'floor' %}">Floor & Unit</a></li>
                     <li>Terms and Conditions</li>
-                  </ul>
+                </ul>
             </div>
             <div class="right-heads">
                 <p>
@@ -47,13 +47,13 @@
             </div>
             <div class="col-md-8" id="f-right">
                 <form action="">
-                <div class="row">
-                    <div class="right-head">
-                        <h3>Terms and Conditions </h3>
-                        <p>
-                            Click agree or disagree to move to the next step
-                        </p>
-                    </div>
+                    <div class="row">
+                        <div class="right-head">
+                            <h3>Terms and Conditions </h3>
+                            <p>
+                                Click agree or disagree to move to the next step
+                            </p>
+                        </div>
                         <div class="col-md-12">
                             <div class="top" style="margin-left: 10px;">
                                 <p>
@@ -67,12 +67,13 @@
                                 </ol>
                             </div>
                         </div>
-                </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3" >
-                    <a href="#" type="button" class="btn btn-danger">&laquo; Disagree</a>
-                    <a href="{% url 'login' %}" type="button" class="btn btn-success">Agree &raquo;</a>
-                </div>
-            </form>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end mb-3">
+                        <a href="{% url 'floor' %}" class="btn btn-danger">&laquo; Previous</a>
+                        <a href="{% url 'landing' %}" type="button" class="btn btn-danger">&laquo; Disagree</a>
+                        <a href="{% url 'login' %}" type="button" class="btn btn-success">Agree &raquo;</a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

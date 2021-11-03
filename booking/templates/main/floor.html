@@ -32,7 +32,7 @@
                     <li><a href="{% url 'estate' %}">Apartment</a></li>
                     <li><a href="{% url 'block' %}">Block</a></li>
                     <li>Floor/Unit</li>
-                  </ul>
+                </ul>
             </div>
             <div class="col-md-3" id="f-lefts">
                 <h3>Select Floor <i class="far fa-check-square" style="color:#85C1E9 "></i></h3>
@@ -42,27 +42,27 @@
                             <label class="list-group-item mb-2">
                                 <input class="form-check-input me-1" type="checkbox" value="">
                                 Ground Floor
-                              </label>
-                              <label class="list-group-item mb-2">
+                            </label>
+                            <label class="list-group-item mb-2">
                                 <input class="form-check-input me-1" type="checkbox" value="">
                                 First Floor
-                              </label>
-                              <label class="list-group-item mb-2">
+                            </label>
+                            <label class="list-group-item mb-2">
                                 <input class="form-check-input me-1" type="checkbox" value="">
                                 Second Floor
-                              </label>
-                              <label class="list-group-item mb-2">
+                            </label>
+                            <label class="list-group-item mb-2">
                                 <input class="form-check-input me-1" type="checkbox" value="">
                                 Third Floor
-                              </label>
-                              <label class="list-group-item mb-2">
+                            </label>
+                            <label class="list-group-item mb-2">
                                 <input class="form-check-input me-1" type="checkbox" value="">
                                 Fourth Floor
-                              </label>
+                            </label>
                         </div>
-                        <a type="submit" class="btn btn-success"  href="#collapseExample" 
-                        data-bs-toggle="collapse" role="button" aria-expanded="false" 
-                        aria-controls="collapseExample"> Submit Floor <i
+                        <a href="{% url 'block' %}" class="btn btn-danger">&laquo; Previous</a>
+                        <a type="submit" class="btn btn-success" href="#collapseExample" data-bs-toggle="collapse"
+                            role="button" aria-expanded="false" aria-controls="collapseExample"> Submit Floor <i
                                 class="fas fa-long-arrow-alt-right"></i></a>
                     </form>
                 </div>
@@ -72,13 +72,13 @@
             </div>
             <div class="col-md-8 collapse me-auto" id="collapseExample">
                 <form action="">
-                <div class="row">
-                    <div class="right-head">
-                        <h3>Select Unit <i class="far fa-check-square" style="color:#85C1E9 "></i></h3>
-                        <p>
-                            Please select your preferred unit then click NEXT
-                        </p>
-                    </div>
+                    <div class="row">
+                        <div class="right-head">
+                            <h3>Select Unit <i class="far fa-check-square" style="color:#85C1E9 "></i></h3>
+                            <p>
+                                Please select your preferred unit then click NEXT
+                            </p>
+                        </div>
                         <div class="col-sm-6 col-md-3 col-lg-3">
                             <div class="r-card">
                                 <div class="r-head mx-auto text-center">
@@ -87,7 +87,8 @@
                                     </div>
                                     <p><strong>Status</strong><span class="br"> Booked</span></p>
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
+                                            checked>
                                         <label class="form-check-label mb-2" for="flexCheckDefault">
                                             House A01
                                         </label>
@@ -111,14 +112,13 @@
                                 </div>
                             </div>
                         </div>
-                </div>
-                <a type="submit" class="btn btn-success"  href="{% url 'terms' %}" 
-                        style="margin-left:20px"> Submit Unit <i
-                                class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-            </form>
+                    </div>
+                    <a type="submit" class="btn btn-success" href="{% url 'terms' %}" style="margin-left:20px"> Submit
+                        Unit <i class="fas fa-long-arrow-alt-right"></i></a>
             </div>
+            </form>
         </div>
+    </div>
     </div>
 </section>
 {% include 'footer.html' %}
