@@ -4,9 +4,12 @@
 }
 
 #a-left {
-    background-image: url(../img/auth/1.jpg);
+    background-image: url(../img/auth/PICTURE-01.png);
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+
 }
 
 #a-right {
@@ -34,13 +37,15 @@
 
     }
 }
+
 @media screen and (max-width: 768px) {
 
-    #c-card{
+    #c-card {
         background-color: #f2f6f7;
         border-radius: 8px;
     }
-    .l-text h4{
+
+    .l-text h4 {
         color: red;
     }
 }
