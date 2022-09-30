@@ -73,14 +73,19 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="plan-pay">
-                                            <form action="">
+                                            <form action="{% url 'pay' %}" method="post">
+                                                {% csrf_token %}
+                                                <input type="hidden" name="amount" value="1">
+                                                <input type="hidden" name="account_reference" value="Testing">
+
                                                 <div class="mb-3">
                                                     <label for="exampleInputEmail1" class="form-label">M-pesa
                                                         Payemt</label>
-                                                    <input type="email" class="form-control"
-                                                        placeholder="Enter M-pesa Number to Pay">
+                                                    <input type="text" class="form-control" name="phone_number"
+                                                        placeholder="07XXXXXXXX">
                                                 </div>
-                                                <button type="submit" id="pay" class="btn btn-primary">Min. Kshs 30,000
+                                                <button type="submit" id="pay" class="btn btn-primary w-100">Min. Kshs
+                                                    30,000
                                                     Pay <i class="fas fa-long-arrow-alt-right"></i></button>
                                             </form>
                                             <h6>
