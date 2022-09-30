@@ -1,0 +1,117 @@
+action: GLOB, msg: packaging
+cwd: /home/hypertext/Work/Core/Python/Django/Edermann
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing EDERMANN.egg-info/PKG-INFO
+writing dependency_links to EDERMANN.egg-info/dependency_links.txt
+writing requirements to EDERMANN.egg-info/requires.txt
+writing top-level names to EDERMANN.egg-info/top_level.txt
+reading manifest file 'EDERMANN.egg-info/SOURCES.txt'
+writing manifest file 'EDERMANN.egg-info/SOURCES.txt'
+running check
+creating EDERMANN-1.2.0
+creating EDERMANN-1.2.0/EDERMANN
+creating EDERMANN-1.2.0/EDERMANN.egg-info
+creating EDERMANN-1.2.0/authentication
+creating EDERMANN-1.2.0/authentication/migrations
+creating EDERMANN-1.2.0/booking
+creating EDERMANN-1.2.0/booking/migrations
+creating EDERMANN-1.2.0/payments
+creating EDERMANN-1.2.0/payments/migrations
+copying files to EDERMANN-1.2.0...
+copying README.md -> EDERMANN-1.2.0
+copying setup.cfg -> EDERMANN-1.2.0
+copying setup.py -> EDERMANN-1.2.0
+copying EDERMANN/__init__.py -> EDERMANN-1.2.0/EDERMANN
+copying EDERMANN/asgi.py -> EDERMANN-1.2.0/EDERMANN
+copying EDERMANN/settings.py -> EDERMANN-1.2.0/EDERMANN
+copying EDERMANN/urls.py -> EDERMANN-1.2.0/EDERMANN
+copying EDERMANN/wsgi.py -> EDERMANN-1.2.0/EDERMANN
+copying EDERMANN.egg-info/PKG-INFO -> EDERMANN-1.2.0/EDERMANN.egg-info
+copying EDERMANN.egg-info/SOURCES.txt -> EDERMANN-1.2.0/EDERMANN.egg-info
+copying EDERMANN.egg-info/dependency_links.txt -> EDERMANN-1.2.0/EDERMANN.egg-info
+copying EDERMANN.egg-info/requires.txt -> EDERMANN-1.2.0/EDERMANN.egg-info
+copying EDERMANN.egg-info/top_level.txt -> EDERMANN-1.2.0/EDERMANN.egg-info
+copying authentication/__init__.py -> EDERMANN-1.2.0/authentication
+copying authentication/admin.py -> EDERMANN-1.2.0/authentication
+copying authentication/apps.py -> EDERMANN-1.2.0/authentication
+copying authentication/models.py -> EDERMANN-1.2.0/authentication
+copying authentication/tests.py -> EDERMANN-1.2.0/authentication
+copying authentication/urls.py -> EDERMANN-1.2.0/authentication
+copying authentication/views.py -> EDERMANN-1.2.0/authentication
+copying authentication/migrations/__init__.py -> EDERMANN-1.2.0/authentication/migrations
+copying booking/__init__.py -> EDERMANN-1.2.0/booking
+copying booking/admin.py -> EDERMANN-1.2.0/booking
+copying booking/apps.py -> EDERMANN-1.2.0/booking
+copying booking/models.py -> EDERMANN-1.2.0/booking
+copying booking/tests.py -> EDERMANN-1.2.0/booking
+copying booking/urls.py -> EDERMANN-1.2.0/booking
+copying booking/views.py -> EDERMANN-1.2.0/booking
+copying booking/migrations/0001_initial.py -> EDERMANN-1.2.0/booking/migrations
+copying booking/migrations/0002_auto_20211101_0940.py -> EDERMANN-1.2.0/booking/migrations
+copying booking/migrations/0003_estate_about.py -> EDERMANN-1.2.0/booking/migrations
+copying booking/migrations/0004_auto_20211101_1037.py -> EDERMANN-1.2.0/booking/migrations
+copying booking/migrations/__init__.py -> EDERMANN-1.2.0/booking/migrations
+copying payments/__init__.py -> EDERMANN-1.2.0/payments
+copying payments/admin.py -> EDERMANN-1.2.0/payments
+copying payments/apps.py -> EDERMANN-1.2.0/payments
+copying payments/models.py -> EDERMANN-1.2.0/payments
+copying payments/tests.py -> EDERMANN-1.2.0/payments
+copying payments/urls.py -> EDERMANN-1.2.0/payments
+copying payments/views.py -> EDERMANN-1.2.0/payments
+copying payments/migrations/__init__.py -> EDERMANN-1.2.0/payments/migrations
+Writing EDERMANN-1.2.0/setup.cfg
+creating '.tox/dist/EDERMANN-1.2.0.zip' and adding 'EDERMANN-1.2.0' to it
+adding 'EDERMANN-1.2.0'
+adding 'EDERMANN-1.2.0/booking'
+adding 'EDERMANN-1.2.0/authentication'
+adding 'EDERMANN-1.2.0/payments'
+adding 'EDERMANN-1.2.0/EDERMANN'
+adding 'EDERMANN-1.2.0/EDERMANN.egg-info'
+adding 'EDERMANN-1.2.0/setup.cfg'
+adding 'EDERMANN-1.2.0/PKG-INFO'
+adding 'EDERMANN-1.2.0/README.md'
+adding 'EDERMANN-1.2.0/setup.py'
+adding 'EDERMANN-1.2.0/booking/migrations'
+adding 'EDERMANN-1.2.0/booking/urls.py'
+adding 'EDERMANN-1.2.0/booking/views.py'
+adding 'EDERMANN-1.2.0/booking/tests.py'
+adding 'EDERMANN-1.2.0/booking/admin.py'
+adding 'EDERMANN-1.2.0/booking/models.py'
+adding 'EDERMANN-1.2.0/booking/__init__.py'
+adding 'EDERMANN-1.2.0/booking/apps.py'
+adding 'EDERMANN-1.2.0/booking/migrations/0003_estate_about.py'
+adding 'EDERMANN-1.2.0/booking/migrations/0004_auto_20211101_1037.py'
+adding 'EDERMANN-1.2.0/booking/migrations/0001_initial.py'
+adding 'EDERMANN-1.2.0/booking/migrations/__init__.py'
+adding 'EDERMANN-1.2.0/booking/migrations/0002_auto_20211101_0940.py'
+adding 'EDERMANN-1.2.0/authentication/migrations'
+adding 'EDERMANN-1.2.0/authentication/urls.py'
+adding 'EDERMANN-1.2.0/authentication/views.py'
+adding 'EDERMANN-1.2.0/authentication/tests.py'
+adding 'EDERMANN-1.2.0/authentication/admin.py'
+adding 'EDERMANN-1.2.0/authentication/models.py'
+adding 'EDERMANN-1.2.0/authentication/__init__.py'
+adding 'EDERMANN-1.2.0/authentication/apps.py'
+adding 'EDERMANN-1.2.0/authentication/migrations/__init__.py'
+adding 'EDERMANN-1.2.0/payments/migrations'
+adding 'EDERMANN-1.2.0/payments/urls.py'
+adding 'EDERMANN-1.2.0/payments/views.py'
+adding 'EDERMANN-1.2.0/payments/tests.py'
+adding 'EDERMANN-1.2.0/payments/admin.py'
+adding 'EDERMANN-1.2.0/payments/models.py'
+adding 'EDERMANN-1.2.0/payments/__init__.py'
+adding 'EDERMANN-1.2.0/payments/apps.py'
+adding 'EDERMANN-1.2.0/payments/migrations/__init__.py'
+adding 'EDERMANN-1.2.0/EDERMANN/urls.py'
+adding 'EDERMANN-1.2.0/EDERMANN/settings.py'
+adding 'EDERMANN-1.2.0/EDERMANN/__init__.py'
+adding 'EDERMANN-1.2.0/EDERMANN/wsgi.py'
+adding 'EDERMANN-1.2.0/EDERMANN/asgi.py'
+adding 'EDERMANN-1.2.0/EDERMANN.egg-info/PKG-INFO'
+adding 'EDERMANN-1.2.0/EDERMANN.egg-info/requires.txt'
+adding 'EDERMANN-1.2.0/EDERMANN.egg-info/SOURCES.txt'
+adding 'EDERMANN-1.2.0/EDERMANN.egg-info/dependency_links.txt'
+adding 'EDERMANN-1.2.0/EDERMANN.egg-info/top_level.txt'
+removing 'EDERMANN-1.2.0' (and everything under it)
