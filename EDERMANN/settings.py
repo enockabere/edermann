@@ -40,6 +40,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ALLOWED_HOSTS = [".localhost"]
 # Application definition
 
 INSTALLED_APPS = [
@@ -86,17 +87,11 @@ TEMPLATES = [
     },
 ]
 # The Mpesa environment to use
-# Possible values: sandbox, production
-MPESA_ENVIRONMENT = config('MPESA_ENVIRONMENT')
-
-# Credentials for the daraja app
-MPESA_CONSUMER_KEY = config('MPESA_CONSUMER_KEY')
-MPESA_CONSUMER_SECRET = config('MPESA_CONSUMER_SECRET')
-
-# Shortcode to use for transactions. For sandbox  use the Shortcode 1 provided on test credentials page
-MPESA_EXPRESS_SHORTCODE = config('MPESA_EXPRESS_SHORTCODE')
-
-MPESA_PASSKEY = config('MPESA_PASSKEY')
+MPESA_ENVIRONMENT = 'sandbox'
+MPESA_CONSUMER_KEY = 'aCrhPbXiG8rB2gwyZi8Mrji6yWtZCo8g'
+MPESA_CONSUMER_SECRET = 'AWqJf3FA7Rk9vJGl'
+MPESA_EXPRESS_SHORTCODE = '174379'
+MPESA_PASSKEY = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919'
 
 
 cloudinary.config(
